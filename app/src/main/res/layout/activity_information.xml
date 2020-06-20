@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            style="@style/Image"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:src="@drawable/gold"/>
+        <TextView
+            style="@style/Text"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Recycling conserves natural resources."/>
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The world's natural resources are finite, and some are in very short supply.\u000A\u000AAt a fundamental level:\u000A▲ Recycling paper and wood saves trees and forests. Yes you can plant new trees, but you can't replace virgin rainforest or ancient woodlands once they're lost.\u000A▲ Recycling plastic means creating less new plastic, which is definitely a good thing, especially as it's usually made from fossil fuel hydrocarbons.\u000A▲ Recycling metals means there's less need for risky, expensive and damaging mining and extraction of new metal ores.\u000A▲ Recycling glass reduces the need to use new raw materials like sand - it sounds hard to believe, but supplies of some types of sand are starting to get low around the world."/>
+        <androidx.appcompat.widget.AppCompatImageView
+            style="@style/Image"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:src="@drawable/mountain"/>
+        <TextView
+            style="@style/Text"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Recycling protects ecosystems and wildlife."/>
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycling reduces the need to grow, harvest or extract new row materials from the Earth. That in turn lessens the harmful disruption and damage being done to the natural world: fewer forests cut down, rivers diverted, wild animals harmed or displaced, and less pollution of water, soil and air."/>
+        <androidx.appcompat.widget.AppCompatImageView
+            style="@style/Image"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:src="@drawable/people"/>
+        <TextView
+            style="@style/Text"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Recycling protects people."/>
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="As with point 2 above - the worlds increasing demand for new stuff has led to more of the poorest and most vulnerable people (for example living around forests or river systems) being displaced from their homes, or otherwise exploited. Forest communities con find themselves evicted as a result of the search for cheap timber. Rivers con be damned, or polluted by manufacturing waste, which harms local people."/>
+        <androidx.appcompat.widget.AppCompatImageView
+            style="@style/Image"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:src="@drawable/bat"/>
+        <TextView
+            style="@style/Text"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Recycling saves energy."/>
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Making products from recycled materials requires less energy than making them from new raw materials. Sometimes it’s a huge difference in energy-for example:\u000A▲Producing new aluminum from old (including recycled cans and foil) uses 95% less energy than making it from scratch. For steel it's about a 70% energy saving.\u000A▲Making paper from pulped recycled paper uses 40% less energy than making it from virgin wood fibres."/>
+        <androidx.appcompat.widget.AppCompatImageView
+            style="@style/Image"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:src="@drawable/rub"/>
+        <TextView
+            style="@style/Text"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Recycling reduces landfill waste."/>
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dumping our rubbish in landfill tips is hugely wasteful. Imagine all the potentially useful reusable stuff that's been buried over the decades. It's a waste of good waste."/>
+
+    </LinearLayout>
+
+</ScrollView>
